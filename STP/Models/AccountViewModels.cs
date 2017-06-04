@@ -12,6 +12,7 @@ namespace STP.Models
         public string Url { get; set; }
 
         public string State { get; set; }
+
     }
 
     public class ManageInfoViewModel
@@ -23,6 +24,7 @@ namespace STP.Models
         public IEnumerable<UserLoginInfoViewModel> Logins { get; set; }
 
         public IEnumerable<ExternalLoginViewModel> ExternalLoginProviders { get; set; }
+
     }
 
     public class UserInfoViewModel
